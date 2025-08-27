@@ -4,7 +4,8 @@ import insta from "../../public/instagram.png"
 import xlogo from "../../public/x-logo.png"
 
 
-export default function() {
+
+export default function ContactUs() {
     return (
         <>
             <div className="flex items-center justify-center h-screen bg-gray-100">

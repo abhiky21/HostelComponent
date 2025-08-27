@@ -43,21 +43,10 @@ export default function Form(props) {
       }
     }
   }
-    // update();
-    // if (name.length !== 0) {
-    //   setValue("ValidName")
-    //   setColor("black") 
-    //   console.log("Clicked");
-      
-    // }
-    // else {
-    //   setColor("red");
-    // }
-// {`border ${value === "ValidName"? `border-${color}-300` : `border-${color}-400`} 
+   
   return (
     <>
-      <ContactUs/>
-    {/* <Checker button={ dise == true? (<img className="w-100 h-100 pl-30" src={sahi} alt="" /> ) : (
+    <Checker button={ dise == true? (<img className="w-100 h-100 pl-30" src={sahi} alt="" /> ) : (
       <>
       <h1 className="text-3xl font-bold text-gray-800 text-center">
           {props.title}
@@ -85,7 +74,7 @@ export default function Form(props) {
         </form>
         </>
     )
-        }/> */}
+        }/>
       
     </>
   );
