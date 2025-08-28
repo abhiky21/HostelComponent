@@ -8,6 +8,8 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Login from './Component/Login'
+import SignUp from './Component/SignUp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,8 @@ function App() {
         <Routes>
           <Route exact path='/'  element={<Form title="Submit Your Details"/>}/>
           <Route exact path='/contactus'  element={<ContactUs />}/>
+          <Route exact path='/login'  element={<Login />}/>
+          <Route exact path='/signup'  element={<SignUp />}/>
         </Routes>
     </Router>
   )
