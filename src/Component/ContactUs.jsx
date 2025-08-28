@@ -4,14 +4,14 @@ import insta from "../../public/instagram.png";
 import xlogo from "../../public/x-logo.png";
 
 export default function ContactUs() {
-  const [heading, setHeading] = useState("");
-  const [changeAnimate, setChangeAnimate] = useState("");
+  // const [heading, setHeading] = useState("");
+  // const [changeAnimate, setChangeAnimate] = useState("");
 
-  const handleClick = () => {
-    setHeading("Enter Full Name");
-    let val = "red";
-    setChangeAnimate(val);
-  };
+  // const handleClick = () => {
+  //   setHeading("Enter Full Name");
+  //   let val = "red";
+  //   setChangeAnimate(val);
+  // };
   return (
     <>
       <div className="flex items-center justify-center h-screen bg-gray-100">
@@ -21,16 +21,11 @@ export default function ContactUs() {
             <div className="flex flex-col">
               <label
                 id="headinglabel"
-                className={`relative top-9 left-3.5 font-semibold ${
-                  heading == "Enter Full Name" ? "show" : "hidden"
-                }`}
-                style={{ color: `${changeAnimate}` }}
+                className="relative top-9 left-3.5 font-semibold"
               >
-                {heading}
               </label>
               <input
                 type="text"
-                onClick={handleClick}
                 className=" border-gray-950 border-b-4 font-bold py-3 px-3 w-[250px] outline-none"
                 placeholder="Enter Full Name"
               />
