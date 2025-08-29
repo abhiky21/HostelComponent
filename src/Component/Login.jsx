@@ -6,7 +6,7 @@ export default function Login() {
     <div className="flex items-center justify-center h-[80vh]">
       <div className="flex flex-col  w-[400px] h-[50vh] space-y-10">
         <h1 className="text-2xl font-bold text-center">Sign in With Hostel</h1>
-        <form >
+        <form>
           <div className="flex flex-col space-y-2">
             <label htmlFor="" className="font-semibold ">
               Username or email address
@@ -24,11 +24,16 @@ export default function Login() {
             />
             <button
               type="submit"
-              className="border border-gray-200 h-12 text-2xl text-gray-700 mt-2 bg-orange-300 rounded font-mono hover:bg-amber-400 active:bg-amber-300"
+              className="border border-gray-200 h-12 text-2xl text-gray-700 mt-2 bg-orange-300 rounded-2xl font-mono hover:bg-amber-400 active:bg-amber-300"
             >
               Login
             </button>
-            <button className="text-xl mt-2 font-semibold">New user? <Link className="text-blue-700 " to="/signup">Register here</Link></button>
+            <button className="text-xl mt-2 font-semibold">
+              New user?{" "}
+              <Link className="text-blue-700 " to="/signup">
+                Register here
+              </Link>
+            </button>
           </div>
         </form>
       </div>

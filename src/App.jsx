@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './index.css'
 import Form from './Component/Form'
 import ContactUs from './Component/ContactUs'
 import Navbar from './Component/Navbar'
@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Login from './Component/Login'
 import SignUp from './Component/SignUp'
+import About from './Component/About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/contactus'  element={<ContactUs />}/>
           <Route exact path='/login'  element={<Login />}/>
           <Route exact path='/signup'  element={<SignUp />}/>
+          <Route exact path='/about'  element={<About />}/>
         </Routes>
     </Router>
   )

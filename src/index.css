@@ -12,4 +12,7 @@
   }
   */
   @import "tailwindcss";
-  
+
+#myimg:hover{
+  transform: scale(1.2);
+}
