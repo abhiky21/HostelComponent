@@ -8,6 +8,7 @@ import bathroom from "../assets/bathroom.jpg";
 
 function About() {
   return (
+    <div>
     <div className="flex items-center justify-center ">
       <div className="text-center m-10 ">
         {/* Heading of About page */}
@@ -167,6 +168,15 @@ function About() {
             className="w-[300px] float-left rounded-2xl hover:scale-110 transition duration-300 shadow"
             alt="bedroom"
           />
+        </div>
+      </div>
+    </div>
+      <div className="bg-gray-900 h-100 flex items-start grap-10 p-10">
+        <div className="text-gray-50 text-justify">Lorem, ipsum.
+          <ul><li><a href="">lorem</a></li></ul>
+        </div>
+        <div className="text-gray-50">Lorem, ipsum.
+          <ul><li><a href="">lorem</a></li></ul>
         </div>
       </div>
     </div>
